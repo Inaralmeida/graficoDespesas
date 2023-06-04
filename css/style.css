@@ -62,7 +62,7 @@ main {
 }
 
 .line__tooltip {
-  padding: 5px 8px;
+  padding: 5px 5px;
   color: var(--white);
   background-color: var(--darkBrown);
   border-radius: 5px;
