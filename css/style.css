@@ -1,0 +1,129 @@
+header {
+  width: 375px;
+  padding: 20px 25px;
+  background-color: var(--salmon);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header__infos {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header__infos > p {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+/* MAIN --------------------------------- */
+
+main {
+  display: flex;
+  align-items: flex-start;
+  width: 375px;
+  padding: 20px 25px;
+  background-color: var(--white);
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 15px;
+}
+
+.main__title {
+  font-size: 20px;
+  color: var(--darkBrown);
+}
+.main__grafico {
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid var(--shadow);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.grafico__line {
+  height: 100%;
+  width: calc((100% / 7));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.line__tooltip {
+  padding: 5px 8px;
+  color: var(--white);
+  background-color: var(--darkBrown);
+  border-radius: 5px;
+  font-size: 10px;
+  display: none;
+  transition: 0.5s;
+}
+
+.line__bar {
+  width: 100%;
+  height: 30%;
+  background-color: var(--salmon);
+  display: block;
+  border-radius: 4px;
+}
+
+.grafico__line:hover .line__tooltip {
+  display: block;
+}
+
+.bar__maxday {
+  background-color: var(--blue);
+}
+
+.line__legend {
+  font-size: 12px;
+  color: var(--lightBrown);
+  font-weight: 400;
+}
+
+.main__infos {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.main__infos div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__infos div:nth-child(2) {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.infos__legend {
+  font-size: 12px;
+  color: var(--lightBrown);
+}
+
+.infos__totalMonth {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--darkBrown);
+}
+
+.infos__percentage {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--darkBrown);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Grafico de despesas</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__infos">
+        <small>Banlanço</small>
+        <p>$ <span id="media">921.48</span></p>
+      </div>
+
+      <div><img src="./images/logo.svg" alt="Logo app" /></div>
+    </header>
+    <main>
+      <h2 class="main__title">Periodo - Ultimos 7 dias</h2>
+      <div class="main__grafico">
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar bar__maxday"></span>
+          <small class="line__legend">Wed</small>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+
+        <div class="grafico__line">
+          <span class="line__tooltip">240</span>
+          <span class="line__bar"></span>
+          <span class="line__legend">Wed</span>
+        </div>
+      </div>
+      <div class="main__infos">
+        <div>
+          <p class="infos__legend">Total no Mês</p>
+          <p class="infos__totalMonth">$ <span id="total_month">478.33</span></p>
+        </div>
+        <div>
+          <p><span class="infos__percentage">+2.4%</span></p>
+          <p class="infos__legend">Que o mês anterior</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

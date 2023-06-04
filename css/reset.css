@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(27, 66%, 92%);
+  flex-direction: column;
+}
+
+:root {
+  --salmon: hsl(10, 79%, 65%);
+  --darkBrown: hsl(25, 47%, 15%);
+  --lightBrown: #94867a;
+  --white: hsl(33, 100%, 98%);
+  --blue: hsl(186, 34%, 60%);
+  --shadow: #94867a44;
+}
